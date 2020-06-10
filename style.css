@@ -78,18 +78,22 @@ justify-content: center;
 }
 
 .sobre{
-  margin: 25;
   display: flex;
-  min-height: 600px;
+  justify-content: center;
+  min-height: 550px;
   width: 900px;
   align-items: center;
   font-family: Verdana;
-  color:whitesmoke;
+  color:black;
   font-weight: bold;
   align-items: center;
 }
 .sobre p{
+  margin:25;
   font-size: 14;
+}
+.sobre h2{
+  margin:25;
 }
 
 .construcao{
@@ -106,7 +110,6 @@ justify-content: center;
 
 /*Div referente ao rodapé*/
 .footer{
-  margin: 25;
   min-width:300px;
   display: flex;
   justify-content: center;
@@ -115,6 +118,7 @@ justify-content: center;
   color:whitesmoke;
 }
 footer h5{
+  margin: 25;
   font-family: Verdana;
   font-weight: bold;
   font-size: 12;
