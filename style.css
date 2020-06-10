@@ -1,0 +1,122 @@
+.main {
+  /* Inserção da Imagem */
+  background-image: url("Background2.jpg");
+  /* Definição do tamanho do background */
+  min-height: 605px;
+ 
+  /* Atributos para centraligar e dimensionar a imagem */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  position: relative;
+}
+
+/* Posição que a Navbar terá dentro da DIV top */
+.top {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* Div menu, denominei a opacidade do bloco, a fonte e o efeito*/
+.menu {
+  overflow: hidden ;
+  opacity: 75%;
+  background-color: #333;
+  font-family: Verdana;
+}
+/* Dentro da DIV menu os atributos a que chamam outras páginas*/
+.menu a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menu a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+
+/*div da página de contatos*/
+.contato{
+display: flex;
+justify-content: center;
+}
+.contato img{
+  display: flex;
+  padding: 16;
+  height: 75px;
+  width: 75px;
+}
+
+/*div para gerir a foto do perfil*/
+.fotoperfil{
+  display: flex;
+  min-height: 400px;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+.fotoperfil img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.inicio{
+  min-width:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inicio h1{
+  font-family: Verdana;
+  font-weight: bold;
+  color:whitesmoke;
+}
+
+.sobre{
+  margin: 25;
+  display: flex;
+  min-height: 600px;
+  width: 900px;
+  align-items: center;
+  font-family: Verdana;
+  color:whitesmoke;
+  font-weight: bold;
+  align-items: center;
+}
+.sobre p{
+  font-size: 14;
+}
+
+.construcao{
+  display: flex;
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+.construcao img{
+  height: 400px;
+  width: 400px;
+}
+
+/*Div referente ao rodapé*/
+.footer{
+  margin: 25;
+  min-width:300px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  color:whitesmoke;
+}
+footer h5{
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 12;
+}
+
